@@ -143,20 +143,8 @@
 																									'class'=>'input-xlarge select2-me countryclass select-cat',
 																									'data-rule-required'=>'true',
 																									'onchange' => 'getBstate(this.value)',
-																									/*'ajax'=>array(
-											                                                            'type'=>'POST',
-											                                                            'url' => CController::createUrl('dynamicstates'),
-											                                                            'data'=> array('country'=>'js:this.value'),
-											                                                            'success'=> 'function(data){       
-																										                $("#userBillingState").html(data);
-																										                $("#userBillingState").select2("val","");
-																										            }', 
-											                                                        )*/
 																								)
-																								/*array(
-																									'onchange' => 'getBstate(this.value)'
-																								)
-*/																						); ?>	
+																							); ?>	
 														<?php echo $form->error($model, 'userBillingCountry'); ?>
 												</div>
 											</div>
@@ -172,15 +160,6 @@
 																							'data-rule-required'=>'true',
 																							'id'=>'userBillingState',
 																							'onchange' => 'getBcity(this.value)',
-																							 /*'ajax'=>array(
-										                                                        'type'=>'POST',
-										                                                        'url' => CController::createUrl('dynamiccities'),
-										                                                        'data'=> array('state'=>'js:this.value'),
-										                                                        'success'=> 'function(data){       
-																									                $("#userBillingCity").html(data);
-																									                $("#userBillingCity").select2("val","");
-																									            }', 
-										                                                     )*/
 																						)); ?>	
 													<?php echo $form->error($model, 'userBillingState'); ?>
 													
@@ -246,17 +225,9 @@
 																						array(
 																							'empty'=>'- Select Country -',
 																							'id'=>'userShippingCountry',
-																							'class'=>'input-xlarge select2-me countryclass',
+																							'class'=>'input-xlarge select2-me countryclass select-cat',
 																							'data-rule-required'=>'true',
-																							'ajax'=>array(
-									                                                            'type'=>'POST',
-									                                                            'url' => CController::createUrl('dynamicstates'),
-									                                                            'data'=> array('country'=>'js:this.value'),
-									                                                            'success'=> 'function(data){       
-																								                $("#userShippingState").html(data);
-																								                $("#userShippingState").select2("val","");
-																								            }', 
-									                                                        )
+																							'onchange' => 'getSstate(this.value)',
 																						)
 																				); ?>	
 												<?php echo $form->error($model, 'userShippingCountry'); ?>
@@ -270,18 +241,10 @@
 														<?php echo $form->dropDownList($model,'userShippingState',$model->shippingStateOptions,
 																							array(
 																								'empty'=>'- Select State -',
-																								'class'=>'input-xlarge select2-me countryclass',
+																								'class'=>'input-xlarge select2-me countryclass select-cat',
 																								'data-rule-required'=>'true',
 																								'id'=>'userShippingState',
-																								 'ajax'=>array(
-											                                                        'type'=>'POST',
-											                                                        'url' => CController::createUrl('dynamiccities'),
-											                                                        'data'=> array('state'=>'js:this.value'),
-											                                                        'success'=> 'function(data){       
-																										                $("#userShippingCity").html(data);
-																										                $("#userShippingCity").select2("val","");
-																										            }', 
-											                                                     )
+																								'onchange' => 'getScity(this.value)',
 																							)); ?>	
 														<?php echo $form->error($model, 'userShippingState'); ?>
 												</div>
@@ -289,11 +252,10 @@
 
 											<div class="fieldbox">
 												<label><span>*</span>City</label>
-											
-											<div class="countryclass">
-												<?php echo $form->dropDownList($model,'userShippingCity',$model->shippingCityOptions,array('empty'=>'- Select City -','class'=>'input-xlarge select2-me countryclass','data-rule-required'=>'true','id'=>'userShippingCity')); ?>	
-												<?php echo $form->error($model, 'userShippingCity'); ?>
-											</div>
+												<div class="countryclass">
+													<?php echo $form->dropDownList($model,'userShippingCity',$model->shippingCityOptions,array('empty'=>'- Select City -','class'=>'input-xlarge select2-me countryclass select-cat','data-rule-required'=>'true','id'=>'userShippingCity')); ?>	
+													<?php echo $form->error($model, 'userShippingCity'); ?>
+												</div>
 											</div>
 
 											<div class="fieldbox">

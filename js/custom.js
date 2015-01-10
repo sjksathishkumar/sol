@@ -532,6 +532,7 @@ function fireUserLoginEvent(form){
 
 function getBstate(bstate){
     var country=bstate;
+    $("#userBillingCity").resetSS();
     $.ajax({
         type: "POST",
         url: "../customer/dynamicstates",
@@ -539,10 +540,8 @@ function getBstate(bstate){
             country: country
         },
         success: function(result){
-            alert(result);
             $("#userBillingState").html(result);
-            $("#userBillingState").trigger("chosen:updated");
-        //$("#Shop_fkBillingStateID").select2('data',null);
+            $("#userBillingState").resetSS();
         }
     });
 }
@@ -551,19 +550,15 @@ function getBstate(bstate){
 
 function getBcity(bcity){
     var state=bcity;
-    alert(country);
     $.ajax({
         type: "POST",
         url: "../customer/dynamiccities",
         data: {
             state: state
         },
-        //cache: false,
         success: function(result){
             $("#userBillingCity").html(result);
-            $("#userBillingCity").trigger("chosen:updated");
-
-        //$("#Shop_fkBillingCityID").select2('data',null);
+            $("#userBillingCity").resetSS();
         }
     });
 }
@@ -583,11 +578,14 @@ function getSstate(bstate,event){
         },
         success: function(result){
             $("#userShippingState").html(result);
+            $("#userShippingState").resetSS();
         },
         complete:function(){
             if(event == 'complete'){
                 var state     = $("#userBillingState option:selected").val();
-                $("#userShippingState option[value='"+state+"']").attr('selected', 'selected');
+                $('#userShippingState').val(state).change();
+                //$("#userShippingState option[value='"+state+"']").attr('selected', 'selected');
+                //$("#userShippingState").data('ssOpts',options);
             }
         }
     });
@@ -606,11 +604,13 @@ function getScity(bcity,event){
         },
         success: function(result){
             $("#userShippingCity").html(result);
+            $("#userShippingCity").resetSS();
         },
         complete:function(){
             if(event == 'complete'){
-                var state     = $("#userBillingCity option:selected").val();
-                $("#userShippingCity option[value='"+state+"']").attr('selected', 'selected');
+                var city     = $("#userBillingCity option:selected").val();
+                //$('#userShippingCity').val($('#userBillingCity').val()).change();
+                $('#userShippingCity').val(city).change();
             }
         }
     });
@@ -636,7 +636,7 @@ function shipSameAsBill()
         {
             $('#userShippingAddress1').val($('#userBillingAddress1').val());
             $('#userShippingAddress2').val($('#userBillingAddress2').val());
-            $('#userShippingCountry').val($('#userBillingCountry').val());
+            $('#userShippingCountry').val($('#userBillingCountry').val()).change();
             getSstate($('#userBillingCountry').val(),'complete');
             getScity($('#userBillingState').val(),'complete');
             $('#userShippingPhone').val($('#userBillingPhone').val());

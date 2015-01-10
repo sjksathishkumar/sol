@@ -9669,3 +9669,79 @@ Stack trace:
 REQUEST_URI=/promosol/customer/index
 HTTP_REFERER=http://localhost/promosol/customer/update
 ---
+2015/01/10 16:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/deals/284X177/Key-arrow-hotel001f-285x280.jpeg".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/deals/2...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/deals/284X177/Key-arrow-hotel001f-285x280.jpeg
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/10 16:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/banners/banner.jpg".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/banners...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/banners/banner.jpg
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/10 16:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/categories/plane-ico.png".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/categor...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/categories/plane-ico.png
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/10 16:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/banners/banner.jpg".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/banners...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/banners/banner.jpg
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/10 16:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/categories/plane-ico.png".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/categor...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/categories/plane-ico.png
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/10 16:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/deals/284X177/Key-arrow-hotel001f-285x280.jpeg".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/deals/2...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/deals/284X177/Key-arrow-hotel001f-285x280.jpeg
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/10 16:13:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/10 16:13:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
