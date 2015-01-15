@@ -542,6 +542,7 @@ function getBstate(bstate){
         success: function(result){
             $("#userBillingState").html(result);
             $("#userBillingState").resetSS();
+            //$("#userBillingCity").resetSS();
         }
     });
 }

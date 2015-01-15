@@ -461,6 +461,30 @@ class CommonFunctions
         return $flag;
     }
 
+    /**
+     * Function : change date format
+     * Change mm-dd-yyyy format to dd-mm-yyyy format 
+     * @access public
+     * @param $date
+     * @return string
+     */
+    public function changeDate($date)
+    {
+        $changedata = $date;
+        $parts = explode('-', $changedata);
+
+        // Swapping month to date
+        $tmp = $parts['0'];
+        $parts['0'] = $parts['1'];
+        $parts['1'] = $tmp;
+
+        $tempdate = implode('-', $parts);
+        
+        $newdate = date('Y-m-d',strtotime($tempdate));
+
+        echo $newdate; 
+    }
+
     /*
     * This function check the product exist in the cart or not.
     */

@@ -2,10 +2,10 @@
 		<div class="layout">
 			<ul>
 				<li>
-					<a href="#">home</a>&raquo;
+					<?php echo CHtml::link('Home',array('dashboard')); ?>&raquo;
 				</li>
 				<li class="active">
-					edit personal details
+					<?php echo CHtml::link('Edit Details',array('customer/update#')); ?>
 				</li>
 			</ul>
 		</div>
@@ -52,27 +52,25 @@
                                 <?php echo $form->dropDownList($model,'userGender',array('Male'=>'Male','Female'=>'Female'),array('empty'=>'- Select Gender -','class'=>'select-cat','input-xlarge','data-rule-required'=>'true')); ?>	
 								<?php echo $form->error($model, 'userGender'); ?>
 							</div>
-							<?php //echo $model->userDateOfBirth;?>
 							<div class="fieldbox">
                                 <label><span>*</span> Date Of Birth</label>
 								<?php
-                                        $this->widget('zii.widgets.jui.CJuiDatePicker',array(
+								      $this->widget('zii.widgets.jui.CJuiDatePicker',array(
+                                        	'model'=>$model,
                                             'name'=> "Users[userDateOfBirth]",
                                             'id' => 'Users_userDateOfBirth',
-                                            'value' =>date("d/m/Y",strtotime($model->userDateOfBirth)),
+                                            'value' => $model->userDateOfBirth,
                                             'attribute' => 'userDateOfBirth',
                                             'options'=>array(
                                                 'showAnim'=>'fold',
-                                                'dateFormat'=>'dd/mm/yy',//Date format 'mm/dd/yy','yy-mm-dd','d M, y','d MM,
+                                                'dateFormat'=>'dd-mm-yy',//Date format 'mm/dd/yy','yy-mm-dd','d M, y','d MM,
                                                 'changeMonth'=>true,
                                                 'changeYear'=>true,
                                                 'yearRange'=>'1900:2099',
                                                 'maxDate' => 'today',      // maximum date
-                                                'setDate' => date("d/m/Y",strtotime($model->userDateOfBirth)),
+                                                //'setDate' => $model->userDateOfBirth,
+                                                //'altFormat' => 'dd-mm-yy',
                                             ),  
-                                        'htmlOptions'=>array(
-
-                                            ),
                                         ));
 
                                 ?>

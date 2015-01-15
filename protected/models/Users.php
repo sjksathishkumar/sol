@@ -30,6 +30,7 @@ class Users extends CActiveRecord
 			array('userFirstName,userLastName,userEmail,userGender', 'required','on'=>'front_end_user_registration'),
 			/*Adding new customer from admin*/
 			array('userFirstName,userLastName,userEmail,userGender,userPhone', 'required','on'=>'add_user_from_admin,update_user_from_admin'),
+			array('userFirstName,userLastName,userEmail,userGender,userPhone', 'required','on'=>'add_user_from_admin,update_user_front_end'),
 			array('userDateOfBirth,userStatus,userBillingAddress1,userBillingAddress2,userBillingCity,userBillingState,userBillingCountry,userBillingZip,userBillingPhone,userShippingAddress1,userShippingAddress2,userShippingCity,userShippingState,userShippingCountry,userShippingZip,userShippingPhone', 'required','on'=>'update_user_from_admin'),
 			array('userEmail','unique', 'message'=>'This email address already exists.','on'=>'front_end_user_registration, front_end_user_registration_ajax,add_user_from_admin,update_user_from_admin'),
 			array('userEmail', 'email'),

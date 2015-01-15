@@ -15,6 +15,19 @@
 		<div class="dashboard_pg">
 			<h3 class="head">Dashboard</h3>
 
+			<div class="breadcrumbs" id="breadcrumbs-msg">
+			<?php  if(Yii::app()->User->hasFlash('updateAccountSuccess')){ ?>
+				<ul>
+			          <?php
+			                if(Yii::app()->User->getFlash('updateAccountSuccess'))
+			                {
+			                    echo '<li><span class="readcrum_without_link_success">'.EDIT_PROFILE_SUCCESS.'</li>';
+			                }
+			          ?>						
+			      </ul>
+			<?php } ?>
+			</div>
+
 			<div class="boxes">
 				<div class="sortheading">
 					<h3><a href="#" class="texth">My Profile</a>

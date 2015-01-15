@@ -132,6 +132,8 @@ class CustomersController extends Controller
 		if(isset($_POST['Users']) && isset($_POST['UsersLogin'])){
 			$model->attributes = $_POST['Users'];
 			$model->userDateOfBirth = date('Y-m-d',strtotime($model->userDateOfBirth));
+			echo "<pre>";
+			print_r($model->userDateOfBirth); die();
 			$model->userDateModified = date('Y-m-d H:i:s');
 			$loginModel->attributes = $_POST['UsersLogin'];
 			if($model->validate() & $loginModel->validate()){

@@ -142,20 +142,22 @@ class CustomerController extends Controller {
         }
     }
 
+    
+    /*
+     * This action is used to login user.
+     */
 
     public function actionDynamicstates()
     {
-      $data = array();
-      $data=State::model()->findAll('fkCountryID=:fkCountryID', 
-                      array(':fkCountryID'=>(int) $_POST['country']));
-        
-     
+        $data = array();
+        $data=State::model()->findAll('fkCountryID=:fkCountryID', 
+        array(':fkCountryID'=>(int) $_POST['country']));
         $data=CHtml::listData($data,'pkStateID','stateName');
         echo CHtml::tag('option',array('value'=>''),'- Select State -',true);
         foreach($data as $value=>$name)
         {
             echo CHtml::tag('option',
-                       array('value'=>$value),CHtml::encode($name),true);
+            array('value'=>$value),CHtml::encode($name),true);
         }
     }
 
@@ -189,8 +191,6 @@ class CustomerController extends Controller {
             $data = array();
             $data['usrId'] = Yii::app()->user->userId;
             $data['customersDetails'] = $customer->getUserDetails($data['usrId']);
-            //echo "<pre>";
-            //print_r($data['customersDetails']['attributes']); die();
             $this->render('dashboard', array('data' => $data));
         } else {
             $this->redirect('/promosol');
@@ -206,12 +206,12 @@ class CustomerController extends Controller {
                 $id = Yii::app()->user->userId;
                 $model = Users::model()->findByPk($id);
                 $loginModel = UsersLogin::model()->findByPk($model->fkUserLoginID);
-                $model->userDateOfBirth = date('m/d/Y',strtotime($model->userDateOfBirth));
+                $model->userDateOfBirth = date('d-m-Y',strtotime($model->userDateOfBirth));
                 $oldPassword = $loginModel->userPassword;
-                $model->scenario = 'update_user_from_admin';
+                $model->scenario = 'update_user_front_end';
                 if(isset($_POST['Users']) && isset($_POST['UsersLogin'])){
                   $model->attributes = $_POST['Users'];
-                  $model->userDateOfBirth = date('Y-m-d',strtotime($model->userDateOfBirth));
+                  $model->userDateOfBirth = date('Y-m-d',strtotime($_POST['Users']['userDateOfBirth']));
                   $model->userDateModified = date('Y-m-d H:i:s');
                   $loginModel->attributes = $_POST['UsersLogin'];
                   if($model->validate() & $loginModel->validate()){
@@ -223,8 +223,8 @@ class CustomerController extends Controller {
                     }
                     $loginModel->userEmail = $model->userEmail;
                     $loginModel->update(false);
-                    Yii::app()->user->setFlash('updateCustomerSuccess',true);
-                      $this->redirect(array('index'));
+                    Yii::app()->user->setFlash('updateAccountSuccess',true);
+                      $this->redirect(array('dashboard'));
                   }else{
                       $model->billingStateOptions = CHtml::listData(State::model()->findAll('fkCountryID=:fkCountryID',array(':fkCountryID'=>(int) $_POST['Users']['userBillingCountry'])),'pkStateID', 'stateName');
                       $model->billingCityOptions = CHtml::listData(City::model()->findAll('fkStateID=:fkStateID',array(':fkStateID'=>(int) $_POST['Users']['userBillingState'])),'pkCityID', 'cityName');
