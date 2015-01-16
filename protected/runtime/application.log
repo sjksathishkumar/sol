@@ -4224,3 +4224,662 @@ Stack trace:
 REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
 HTTP_REFERER=http://localhost/promosol/customer/dashboard
 ---
+2015/01/15 18:57:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/15 18:57:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/15 18:59:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/15 18:59:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/15 18:59:47 [warning] [application] Failed to set unsafe attribute "userDateOfBirth" of "Users".
+in /var/www/html/promosol/protected/controllers/CustomerController.php (213)
+in /var/www/html/promosol/index.php (22)
+2015/01/15 18:59:47 [warning] [application] Failed to set unsafe attribute "userBillingAddress1" of "Users".
+in /var/www/html/promosol/protected/controllers/CustomerController.php (213)
+in /var/www/html/promosol/index.php (22)
+2015/01/15 18:59:47 [warning] [application] Failed to set unsafe attribute "userBillingAddress2" of "Users".
+in /var/www/html/promosol/protected/controllers/CustomerController.php (213)
+in /var/www/html/promosol/index.php (22)
+2015/01/15 18:59:47 [warning] [application] Failed to set unsafe attribute "userBillingPhone" of "Users".
+in /var/www/html/promosol/protected/controllers/CustomerController.php (213)
+in /var/www/html/promosol/index.php (22)
+2015/01/15 18:59:47 [warning] [application] Failed to set unsafe attribute "userBillingCountry" of "Users".
+in /var/www/html/promosol/protected/controllers/CustomerController.php (213)
+in /var/www/html/promosol/index.php (22)
+2015/01/15 18:59:47 [warning] [application] Failed to set unsafe attribute "userBillingState" of "Users".
+in /var/www/html/promosol/protected/controllers/CustomerController.php (213)
+in /var/www/html/promosol/index.php (22)
+2015/01/15 18:59:47 [warning] [application] Failed to set unsafe attribute "userBillingCity" of "Users".
+in /var/www/html/promosol/protected/controllers/CustomerController.php (213)
+in /var/www/html/promosol/index.php (22)
+2015/01/15 18:59:47 [warning] [application] Failed to set unsafe attribute "userBillingZip" of "Users".
+in /var/www/html/promosol/protected/controllers/CustomerController.php (213)
+in /var/www/html/promosol/index.php (22)
+2015/01/15 18:59:47 [warning] [application] Failed to set unsafe attribute "userShippingAddress1" of "Users".
+in /var/www/html/promosol/protected/controllers/CustomerController.php (213)
+in /var/www/html/promosol/index.php (22)
+2015/01/15 18:59:47 [warning] [application] Failed to set unsafe attribute "userShippingAddress2" of "Users".
+in /var/www/html/promosol/protected/controllers/CustomerController.php (213)
+in /var/www/html/promosol/index.php (22)
+2015/01/15 18:59:47 [warning] [application] Failed to set unsafe attribute "userShippingPhone" of "Users".
+in /var/www/html/promosol/protected/controllers/CustomerController.php (213)
+in /var/www/html/promosol/index.php (22)
+2015/01/15 18:59:47 [warning] [application] Failed to set unsafe attribute "userShippingCountry" of "Users".
+in /var/www/html/promosol/protected/controllers/CustomerController.php (213)
+in /var/www/html/promosol/index.php (22)
+2015/01/15 18:59:47 [warning] [application] Failed to set unsafe attribute "userShippingState" of "Users".
+in /var/www/html/promosol/protected/controllers/CustomerController.php (213)
+in /var/www/html/promosol/index.php (22)
+2015/01/15 18:59:47 [warning] [application] Failed to set unsafe attribute "userShippingCity" of "Users".
+in /var/www/html/promosol/protected/controllers/CustomerController.php (213)
+in /var/www/html/promosol/index.php (22)
+2015/01/15 18:59:47 [warning] [application] Failed to set unsafe attribute "userShippingZip" of "Users".
+in /var/www/html/promosol/protected/controllers/CustomerController.php (213)
+in /var/www/html/promosol/index.php (22)
+2015/01/15 18:59:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/15 18:59:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:10:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/banners/banner.jpg".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/banners...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/banners/banner.jpg
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/16 10:10:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/deals/284X177/Key-arrow-hotel001f-285x280.jpeg".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/deals/2...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/deals/284X177/Key-arrow-hotel001f-285x280.jpeg
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/16 10:10:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/categories/plane-ico.png".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/categor...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/categories/plane-ico.png
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/16 10:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/banners/banner.jpg".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/banners...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/banners/banner.jpg
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/16 10:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/deals/284X177/Key-arrow-hotel001f-285x280.jpeg".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/deals/2...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/deals/284X177/Key-arrow-hotel001f-285x280.jpeg
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/16 10:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/categories/plane-ico.png".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/categor...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/categories/plane-ico.png
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/16 10:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/banners/banner.jpg".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/banners...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/banners/banner.jpg
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/16 10:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/categories/plane-ico.png".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/categor...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/categories/plane-ico.png
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/16 10:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/deals/284X177/Key-arrow-hotel001f-285x280.jpeg".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/deals/2...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/deals/284X177/Key-arrow-hotel001f-285x280.jpeg
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/16 10:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/banners/banner.jpg".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/banners...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/banners/banner.jpg
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/16 10:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/deals/284X177/Key-arrow-hotel001f-285x280.jpeg".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/deals/2...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/deals/284X177/Key-arrow-hotel001f-285x280.jpeg
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/16 10:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/categories/plane-ico.png".' in /var/www/html/promosol/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/categor...')
+#1 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/promosol/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/promosol/uploads/categories/plane-ico.png
+HTTP_REFERER=http://localhost/promosol/
+---
+2015/01/16 10:25:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:25:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:26:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:26:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:28:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:28:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:29:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:29:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:30:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:30:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:38:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:38:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:41:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:41:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:42:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:42:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:55:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 10:55:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:07:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:07:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:07:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:07:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:08:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:08:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:09:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:09:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:11:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:11:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:11:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:11:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:13:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:13:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:19:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:19:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:22:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---
+2015/01/16 11:22:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "common".' in /var/www/html/promosol/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/promosol/framework/web/CController.php(270): CController->missingAction('common')
+#1 /var/www/html/promosol/framework/web/CWebApplication.php(282): CController->run('common')
+#2 /var/www/html/promosol/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/common...')
+#3 /var/www/html/promosol/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/promosol/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/promosol/customer/common/images/acc_img.jpg
+HTTP_REFERER=http://localhost/promosol/customer/dashboard
+---

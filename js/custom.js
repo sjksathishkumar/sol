@@ -281,6 +281,43 @@ $(document).ready(function(){
             });
         }
     });
+
+
+    //Toggle in the frontend customer dashboard
+
+    $('#info').click(function() {
+        var s = $("#infotext");
+        $('.accountinfo_box').slideToggle('fast', function(){
+            s.html(s.text() == '+' ? '-' : '+');
+        });
+        return false;
+    });
+
+    $('#order').click(function() {
+        var s = $("#ordertext");
+        $('.myorder_box').slideToggle('fast', function(){
+            s.html(s.text() == '+' ? '-' : '+');
+        });
+        return false;
+    });
+
+    $('#reward').click(function() {
+        var s = $("#rewardtext");
+        $('.myreward_box').slideToggle('fast', function(){
+            s.html(s.text() == '+' ? '-' : '+');
+        });
+        return false;
+    });
+
+    $('#wallet').click(function() {
+        var s = $("#wallettext");
+        $('.mywalletbox').slideToggle('fast', function(){
+            s.html(s.text() == '+' ? '-' : '+');
+        });
+        return false;
+    });
+
+
     //Allow Numeric
     $('#content').on('keydown','.numeric-10',function (event) {
 

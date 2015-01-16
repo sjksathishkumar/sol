@@ -1,15 +1,12 @@
-<div class="breadcrumb">
-	<div class="layout">
-		<ul>
-			<li>
-				<a href="#">home</a>&raquo;
-			</li>
-			<li class="active">
-				dashboard
-			</li>
-		</ul>
+	<div class="breadcrumb">
+		<div class="layout">
+			<ul>
+				<li class="active">
+					<?php echo CHtml::link('Home',array('dashboard')); ?>
+				</li>
+			</ul>
+		</div>
 	</div>
-</div>
 <div class="body_container dashboard_container">
 	<div class="layout">
 		<div class="dashboard_pg">
@@ -31,8 +28,8 @@
 			<div class="boxes">
 				<div class="sortheading">
 					<h3><a href="#" class="texth">My Profile</a>
-					<div class="closebutton">
-						<a href="#">-</a>
+					<div class="closebutton" id="info">
+						<a href="#" id="infotext">-</a>
 					</div></h3>
 
 				</div>
@@ -123,8 +120,8 @@
 			<div class="boxes">
 				<div class="sortheading">
 					<h3><a href="#" class="texth">My Orders</a>
-					<div class="closebutton">
-						<a href="#">-</a>
+					<div class="closebutton" id="order">
+						<a href="#" id="ordertext">-</a>
 					</div></h3>
 
 				</div>
@@ -249,8 +246,8 @@
 			<div class="boxes">
 				<div class="sortheading">
 					<h3><a href="#" class="texth">My Rewards Points</a>
-					<div class="closebutton">
-						<a href="#">-</a>
+					<div class="closebutton" id="reward">
+						<a href="#" id="rewardtext">-</a>
 					</div></h3>
 
 				</div>
@@ -393,8 +390,8 @@
 			<div class="boxes">
 				<div class="sortheading">
 					<h3><a href="#" class="texth">My Wallet</a>
-					<div class="closebutton">
-						<a href="#">-</a>
+					<div class="closebutton" id="wallet">
+						<a href="#" id="wallettext">-</a>
 					</div></h3>
 
 				</div>
